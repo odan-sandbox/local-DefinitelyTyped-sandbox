@@ -2,7 +2,9 @@ function add(x, y) {
     return x + y
 }
 
-var x = 42
+var x = {
+    a: 10
+}
 
 module.exports = {
     add, x
